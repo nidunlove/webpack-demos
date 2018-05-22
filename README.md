@@ -22,8 +22,11 @@ git add .
 git commit -m "注释"
 git push xxxxxxx
 
-关联自己的库 然后
-push origin master 成功了。
+
+最后关联自己的库 然后成功了
+git add .
+git commit -m "提交信息"
+git push origin master
 
 ```
 
