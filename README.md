@@ -1,4 +1,7 @@
 ```
+github fork 到自己的仓库 练习
+最新版本的webpack 和这个有点冲突,不能build，需要清掉重新安装
+
 fork 和 clone
 网页端 点击fork 项目
 git init 
@@ -9,7 +12,8 @@ cd webpack-demos
 https://blog.csdn.net/zwhlxl/article/details/45110587
 关联原始库
 git remote add upstream git@github.com/ruanyf/webpack-demos.git
-使用fetch命令可以从原始库中抓取最新的更新，fetch源分支到本地 //貌似没权限
+//貌似没权限
+使用fetch命令可以从原始库中抓取最新的更新，fetch源分支到本地 
 git fetch upstream
 
 合并两个版本的代码

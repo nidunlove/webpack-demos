@@ -12,7 +12,7 @@ module.exports = {
       filename: 'index.html'
     }),
     new OpenBrowserPlugin({
-      url: 'http://localhost:8080'
+      url: 'http://www.baidu.com'
     })
   ]
 };
