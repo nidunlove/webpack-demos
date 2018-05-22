@@ -1,3 +1,33 @@
+```
+fork 和 clone
+网页端 点击fork 项目
+git init 
+git clone git@github.com:nidunlove/webpack-demos.git
+
+cd webpack-demos
+
+https://blog.csdn.net/zwhlxl/article/details/45110587
+关联原始库
+git remote add upstream git@github.com/ruanyf/webpack-demos.git
+使用fetch命令可以从原始库中抓取最新的更新，fetch源分支到本地 //貌似没权限
+git fetch upstream
+
+合并两个版本的代码
+git merge upstream/master
+
+git push origin master
+
+提交到自己的仓库  https://blog.csdn.net/killzero/article/details/10441169
+git add .
+git commit -m "注释"
+git push xxxxxxx
+
+关联自己的库 然后
+push origin master 成功了。
+
+```
+
+
 This repo is a collection of simple demos of Webpack.
 
 These demos are purposely written in a simple and clear style. You will find no difficulty in following them to learn the powerful tool.
